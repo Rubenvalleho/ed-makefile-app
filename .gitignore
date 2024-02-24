@@ -31,3 +31,6 @@ bin/
 /.idea/.gitignore
 /.idea/modules.xml
 /.idea/vcs.xml
+/.idea/libraries/google_code_gson.xml
+/.idea/uiDesigner.xml
+/.idea/libraries/junit_jupiter.xml

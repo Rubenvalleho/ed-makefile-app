@@ -1,7 +1,7 @@
-package com.rubenvj.makefile.features.vote.domain;
+package main.com.rubenvj.makefile.features.vote.domain;
 
-import com.rubenvj.makefile.features.appexecution.domain.AppExecution;
-import com.rubenvj.makefile.features.appexecution.domain.AppExecutionRepository;
+import main.com.rubenvj.makefile.features.appexecution.domain.AppExecution;
+import main.com.rubenvj.makefile.features.appexecution.domain.AppExecutionRepository;
 
 public class ShowVoteAppMessageUseCase {
     private AppExecutionRepository appExecutionRepository;

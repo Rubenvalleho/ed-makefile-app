@@ -1,9 +1,7 @@
-package com.rubenvj.makefile.features.welcome.presentation;
+package main.com.rubenvj.makefile.features.welcome.presentation;
 
-import com.rubenvj.makefile.features.appexecution.data.AppExecutionDataRepository;
-import com.rubenvj.makefile.features.appexecution.data.local.FileLocalDataSource;
-import com.rubenvj.makefile.features.appexecution.domain.AppExecution;
-import com.rubenvj.makefile.features.welcome.domain.ShowWelcomeMessageUseCase;
+import main.com.rubenvj.makefile.features.appexecution.data.AppExecutionDataRepository;
+import main.com.rubenvj.makefile.features.welcome.domain.ShowWelcomeMessageUseCase;
 
 public class WelcomePresentation {
     public static void welcomeMessage() {

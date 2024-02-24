@@ -1,4 +1,4 @@
-package com.rubenvj.makefile.features.appexecution.domain;
+package main.com.rubenvj.makefile.features.appexecution.domain;
 
 public interface AppExecutionRepository {
     public AppExecution getAppExecution();
