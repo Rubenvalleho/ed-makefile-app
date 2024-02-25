@@ -9,9 +9,13 @@ public class AppExecutionDataRepository implements AppExecutionRepository {
     private FileLocalDataSource fileLocalDataSource;
     private static AppExecutionDataRepository instance = null;
 
+    public AppExecutionDataRepository (FileLocalDataSource fileLocalDataSource) {
+        this.fileLocalDataSource = fileLocalDataSource;
+    }
+
     public static AppExecutionDataRepository newInstance() {
         if (instance == null) {
-            return instance = new AppExecutionDataRepository();
+            return instance = new AppExecutionDataRepository(new FileLocalDataSource());
         }
         return instance;
     }
