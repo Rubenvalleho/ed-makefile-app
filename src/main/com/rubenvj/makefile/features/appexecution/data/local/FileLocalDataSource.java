@@ -16,7 +16,7 @@ public class FileLocalDataSource {
 
     private Gson gson = new Gson();
 
-    private final Type type = new TypeToken<>() {
+    private final Type type = new TypeToken<AppExecution>() {
     }.getType();
 
     public void save(AppExecution appExecution) {
